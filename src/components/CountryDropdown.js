@@ -6,7 +6,7 @@ export default class CountryDropdown extends Component {
         let {mode} = this.props
         console.log(mode);
         return (
-            <div className="dropdown" style={{ marginTop: '2rem' }}> 
+            <div className="dropdown"> 
                 <select id='countryName' onChange={this.props.setCountry} className={`form-select bg-${mode.mode === 'light' ?'light':'dark'} text-${mode.mode === 'light' ?'dark':'light'}`}  aria-label="Default select example">
                     <option value="in">India</option>
                     <option value="ae">United Arab</option>

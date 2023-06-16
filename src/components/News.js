@@ -76,7 +76,7 @@ export default class News extends Component {
         return (
             <>
                 <div className='container d-flex justify-content-around flex-wrap' style={{ marginTop: "5rem" }}>
-                    <h1 style={{ color: modeState.mode === 'light' ? '#000000' : '#ffffff' }} className='heading my-3'>{heading}-<span className='sub-heading mx-2'>({this.state.totalResults} Results)</span></h1>
+                    <h1 style={{ color: modeState.mode === 'light' ? '#000000' : '#ffffff' }} className='heading'>{heading}-<span className='sub-heading mx-2'>({this.state.totalResults} Results)</span></h1>
                     <CountryDropdown setCountry ={this.setCountry} mode = {modeState}/>
                 </div>
                 {this.state.loading && <Spinner />}
