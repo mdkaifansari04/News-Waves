@@ -29,7 +29,7 @@ export default class News extends Component {
     }
     updateNews = async () => {
         this.props.setProgress(30)
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.state.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`
+        let url = `${process.env.REACT_APP_API_URL}?url=https://ipapi.co/json/?country=${this.state.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`
         this.props.setProgress(50)
         let data = await fetch(url)
         this.props.setProgress(70)
@@ -49,7 +49,7 @@ export default class News extends Component {
     }
 
     fetchMoreData = async () =>{
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.state.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`
+        let url = `${process.env.REACT_APP_API_URL}?url=https://ipapi.co/json/?country=${this.state.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page+1}&pageSize=${this.props.pageSize}`
         let data = await fetch(url)
         let parsedData = await data.json()
 
