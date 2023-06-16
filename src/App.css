@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Geologica:wght@300;400;500;600&family=Kablammo&family=Tilt+Prism&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Geologica', sans-serif;
+}
+
+.brand-logo {
+  font-family: 'Kablammo', cursive;
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+#navbar {
+  background: rgba(255, 255, 255, 0.068) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1)  !important;
+  backdrop-filter: blur(4px) !important;
+  -webkit-backdrop-filter: blur(4px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18) !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.navbar-toggler {
+  outline: none;
+  border: none;
+}
+
+.menubar {
+    font-size: 1.5rem;
+}
+.app-btn {
+  background-color: #9376E0;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.app-btn:hover,
+.app-btn:focus {
+  background-color: #7c65bc;
+}
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+}
+
+.nav-item{
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2.2px;
+  font-size: 3rem;
+  margin-bottom: 2rem !important;
+}
+
+.sub-heading{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2.2px;
+  font-size: 2rem;
+  margin-bottom: 2rem !important;
+}
+
+.card-style{
+  border: none;
+  transition: 0.5s ease-in-out;
+  padding: 0px;
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+
+.card-img-container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.card-img-top{
+  transition: 0.5s;
+}
+
+.card-img-top:hover{
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.image-container-btn{
+  background-color: #7c65bc !important;
+  }
+
+  @media screen and (max-width :991px ){
+    .heading {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .sub-heading{
+      font-size: 1.5rem;
+    }
+    #navbar{
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  }
