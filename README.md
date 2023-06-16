@@ -1,3 +1,33 @@
+
+# News Waves
+
+
+*News Waves is a cutting-edge React application that delivers the latest news and information right to your fingertips. With its sleek and intuitive user interface, News Waves provides a seamless browsing experience.*
+
+## 🛠 Skills
+
+![Made-With-React](https://img.shields.io/badge/Made_with-React-informational?style=for-the-badge&logo=node)
+
+
+
+
+## Features
+
+- Single page architecture for a seamless browsing experience.
+
+- Responsive UI design for optimal viewing across devices
+
+ - Dark mode and light mode options for personalized visual preferences
+
+- API integration for real-time news updates
+
+ - Efficient state management for smooth performance
+- Explore news from different countries
+- Browse news from various categories
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
