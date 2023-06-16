@@ -28,7 +28,27 @@
 
 
 
-# Getting Started with Create React App
+
+## Screenshot
+**Desktop light Mode**
+
+![Dashboard](https://res.cloudinary.com/dngfmzv2g/image/upload/v1686940665/Screenshot_2023-06-16_234123_pnpiek.png)
+
+**Desktop Dark Mode**
+
+![Dashboard](https://res.cloudinary.com/dngfmzv2g/image/upload/v1686940664/Screenshot_2023-06-16_234207_frddfw.png)
+
+**Mobile light mode**
+
+![Registration Page](https://res.cloudinary.com/dngfmzv2g/image/upload/v1686940663/Screenshot_2023-06-17_000452_mdksdr.png)
+
+**Mobile Dark mode**
+
+![Registration Page](https://res.cloudinary.com/dngfmzv2g/image/upload/v1686940664/Screenshot_2023-06-17_000418_oyra2a.png)
+
+
+
+# Getting Started with News Web app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
