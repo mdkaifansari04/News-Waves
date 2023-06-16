@@ -2,7 +2,7 @@
 # News Waves
 
 
-*News Waves is a cutting-edge React application that delivers the latest news and information right to your fingertips. With its sleek and intuitive user interface, News Waves provides a seamless browsing experience.*
+*News Waves is a cutting-edge React application that delivers the latest news and information right to your fingertips. With its sleek and intuitive user interface, News Waves provides a seamless browsing experience, allowing users to stay up-to-date with the most relevant news stories from around the globe. Powered by real-time data integration, this app enables users to customize their news feed, explore various categories, and even receive personalized recommendations based on their preferences. Whether you're a news enthusiast or simply want to stay informed, News Waves is the perfect solution for accessing the world's news in a visually captivating and user-friendly manner. Dive into the waves of information and let News Waves keep you in sync with the ever-changing world.*
 
 ## 🛠 Skills
 
